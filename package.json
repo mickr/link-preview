@@ -1,0 +1,16 @@
+{
+  "name": "link-preview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=handleLinks"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.5.1",
+    "link-preview-generator": "0.0.4",
+    "lru-cache": "^5.1.1"
+  }
+}
